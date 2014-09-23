@@ -312,7 +312,7 @@
   <data name="MenuItem1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib">
+  <data name="$SnapToGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="tradehouse_slot1.Locked" type="System.Boolean, mscorlib">
@@ -975,7 +975,7 @@
   <data name="menu_help_rules.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
+  <data name="$TrayLargeIcon" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="Label8.Locked" type="System.Boolean, mscorlib">
@@ -996,7 +996,7 @@
   <data name="shipb_slot2.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.Name" xml:space="preserve">
+  <data name="$Name" xml:space="preserve">
     <value>Form1</value>
   </data>
   <data name="done_choosing_craftsman_button.Locked" type="System.Boolean, mscorlib">
@@ -1226,7 +1226,7 @@
   <data name="auto_captain_button.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+  <data name="$DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
   <data name="role_trader_pic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -1357,7 +1357,7 @@
   <data name="pros2_bonus_label.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$this.Locked" type="System.Boolean, mscorlib">
+  <data name="$Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="shipb_slot6.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
@@ -1366,7 +1366,7 @@
   <data name="MenuItem7.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.DrawGrid" type="System.Boolean, mscorlib">
+  <data name="$DrawGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="shipc_slot3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
@@ -3783,7 +3783,7 @@
   <data name="plant_p1_slot1.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  <data name="$Localizable" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="MainMenu1.Location" type="System.Drawing.Point, System.Drawing">
@@ -3819,7 +3819,7 @@
   <data name="Label12.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+  <data name="$Language" type="System.Globalization.CultureInfo, mscorlib">
     <value />
   </data>
   <data name="role_craftsman_pic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -3975,7 +3975,7 @@
   <data name="plantation_available_slot4.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing">
+  <data name="$GridSize" type="System.Drawing.Size, System.Drawing">
     <value>2, 2</value>
   </data>
   <data name="plantation_available_slot4.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
@@ -5253,7 +5253,7 @@
   <data name="shipb_slot1.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+  <data name="$TrayHeight" type="System.Int32, mscorlib">
     <value>77</value>
   </data>
   <data name="Label6.Modifiers" type="System.CodeDom.MemberAttributes, System">

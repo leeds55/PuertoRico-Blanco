@@ -33,20 +33,20 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._Button1;
+				return _Button1;
 			}
 			set
 			{
-				if (this._Button1 != null)
+				if (_Button1 != null)
 				{
 					Infoplant infoplant = this;
-					this._Button1.Click -=new EventHandler(infoplant.Button1_Click);
+					_Button1.Click -=new EventHandler(infoplant.Button1_Click);
 				}
-				this._Button1 = value;
-				if (this._Button1 != null)
+				_Button1 = value;
+				if (_Button1 != null)
 				{
 					Infoplant infoplant1 = this;
-					this._Button1.Click +=new EventHandler(infoplant1.Button1_Click);
+					_Button1.Click +=new EventHandler(infoplant1.Button1_Click);
 				}
 			}
 		}
@@ -55,20 +55,20 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._infoplant_timer1;
+				return _infoplant_timer1;
 			}
 			set
 			{
-				if (this._infoplant_timer1 != null)
+				if (_infoplant_timer1 != null)
 				{
 					Infoplant infoplant = this;
-					this._infoplant_timer1.Tick -= new EventHandler(infoplant.infoplant_timer1_Tick);
+					_infoplant_timer1.Tick -= new EventHandler(infoplant.infoplant_timer1_Tick);
 				}
-				this._infoplant_timer1 = value;
-				if (this._infoplant_timer1 != null)
+				_infoplant_timer1 = value;
+				if (_infoplant_timer1 != null)
 				{
 					Infoplant infoplant1 = this;
-					this._infoplant_timer1.Tick +=new EventHandler(infoplant1.infoplant_timer1_Tick);
+					_infoplant_timer1.Tick +=new EventHandler(infoplant1.infoplant_timer1_Tick);
 				}
 			}
 		}
@@ -77,13 +77,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._Label1;
+				return _Label1;
 			}
 			set
 			{
-				this._Label1 = null;
-				this._Label1 = value;
-				this._Label1 = null;
+				_Label1 = value;
 			}
 		}
 
@@ -91,13 +89,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._PictureBox1;
+				return _PictureBox1;
 			}
 			set
 			{
-				this._PictureBox1 = null;
-				this._PictureBox1 = value;
-				this._PictureBox1 = null;
+				_PictureBox1 = value;
 			}
 		}
 
@@ -105,134 +101,132 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._timer_label;
+				return _timer_label;
 			}
 			set
 			{
-				this._timer_label = null;
-				this._timer_label = value;
-				this._timer_label = null;
+				_timer_label = value;
 			}
 		}
 
 		public Infoplant()
 		{
-			this.exit_infoplant_routine = false;
-			this.InitializeComponent();
+			exit_infoplant_routine = false;
+			InitializeComponent();
 		}
 
 		private void Button1_Click(object sender, EventArgs e)
 		{
-			this.Close();
+			Close();
 		}
 
 		protected override void Dispose(bool disposing)
 		{
-			if (disposing && this.components != null)
+			if (disposing && components != null)
 			{
-				this.components.Dispose();
+				components.Dispose();
 			}
 			base.Dispose(disposing);
 		}
 
 		private void infoplant_timer1_Tick(object Sender, EventArgs e)
 		{
-			this.exit_infoplant_routine = false;
-			if (StringType.StrCmp(this.timer_label.Text, "5", false) == 0 & !this.exit_infoplant_routine)
+			exit_infoplant_routine = false;
+			if (StringType.StrCmp(timer_label.Text, "5", false) == 0 & !exit_infoplant_routine)
 			{
-				this.timer_label.Name = "4";
-				this.exit_infoplant_routine = true;
+				timer_label.Name = "4";
+				exit_infoplant_routine = true;
 			}
-			if (StringType.StrCmp(this.timer_label.Text, "4", false) == 0 & !this.exit_infoplant_routine)
+			if (StringType.StrCmp(timer_label.Text, "4", false) == 0 & !exit_infoplant_routine)
 			{
-				this.timer_label.Name = "3";
-				this.exit_infoplant_routine = true;
+				timer_label.Name = "3";
+				exit_infoplant_routine = true;
 			}
-			if (StringType.StrCmp(this.timer_label.Text, "3", false) == 0 & !this.exit_infoplant_routine)
+			if (StringType.StrCmp(timer_label.Text, "3", false) == 0 & !exit_infoplant_routine)
 			{
-				this.timer_label.Name = "2";
-				this.exit_infoplant_routine = true;
+				timer_label.Name = "2";
+				exit_infoplant_routine = true;
 			}
-			if (StringType.StrCmp(this.timer_label.Text, "2", false) == 0 & !this.exit_infoplant_routine)
+			if (StringType.StrCmp(timer_label.Text, "2", false) == 0 & !exit_infoplant_routine)
 			{
-				this.timer_label.Name = "1";
-				this.exit_infoplant_routine = true;
+				timer_label.Name = "1";
+				exit_infoplant_routine = true;
 			}
-			if (StringType.StrCmp(this.timer_label.Text, "1", false) == 0 & !this.exit_infoplant_routine)
+			if (StringType.StrCmp(timer_label.Text, "1", false) == 0 & !exit_infoplant_routine)
 			{
-				this.Close();
+				Close();
 			}
 		}
 
 		[DebuggerStepThrough]
 		private void InitializeComponent()
 		{
-			this.components = new Container();
-			this.Button1 = new Button();
-			this.Label1 = new Label();
-			this.PictureBox1 = new PictureBox();
-			this.infoplant_timer1 = new Timer(this.components);
-			this.timer_label = new Label();
-			this.SuspendLayout();
-			Button button1 = this.Button1;
+			components = new Container();
+			Button1 = new Button();
+			Label1 = new Label();
+			PictureBox1 = new PictureBox();
+			infoplant_timer1 = new Timer(components);
+			timer_label = new Label();
+			SuspendLayout();
+			Button button1 = Button1;
 			Point point = new Point(232, 256);
 			button1.Location = point;
-			this.Button1.Name = "Button1";
-			Button button = this.Button1;
+			Button1.Name = "Button1";
+			Button button = Button1;
 			Size size = new Size(112, 32);
 			button.Size = size;
-			this.Button1.TabIndex=4;
-			this.Button1.Text = "OK";
-			this.Label1.BorderStyle = BorderStyle.Fixed3D;
-			this.Label1.Font = new Font("Comic Sans MS", 15.75f, FontStyle.Regular, GraphicsUnit.Point, 0);
-			Label label1 = this.Label1;
+			Button1.TabIndex=4;
+			Button1.Text = "OK";
+			Label1.BorderStyle = BorderStyle.Fixed3D;
+			Label1.Font = new Font("Comic Sans MS", 15.75f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			Label label1 = Label1;
 			point = new Point(144, 24);
 			label1.Location = point;
-			this.Label1.Name = "Label1";
-			Label label = this.Label1;
+			Label1.Name = "Label1";
+			Label label = Label1;
 			size = new Size(392, 208);
 			label.Size = size;
-			this.Label1.TabIndex=3;
-			this.Label1.Text = "Text will go here";
-			this.Label1.TextAlign = ContentAlignment.MiddleCenter;
-			PictureBox pictureBox1 = this.PictureBox1;
+			Label1.TabIndex=3;
+			Label1.Text = "Text will go here";
+			Label1.TextAlign = ContentAlignment.MiddleCenter;
+			PictureBox pictureBox1 = PictureBox1;
 			point = new Point(24, 80);
 			pictureBox1.Location = point;
-			this.PictureBox1.Name = "PictureBox1";
-			PictureBox pictureBox = this.PictureBox1;
+			PictureBox1.Name = "PictureBox1";
+			PictureBox pictureBox = PictureBox1;
 			size = new Size(96, 96);
 			pictureBox.Size = size;
-			this.PictureBox1.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.PictureBox1.TabIndex=5;
-			this.PictureBox1.TabStop = false;
-			this.timer_label.Font = new Font("Comic Sans MS", 14.25f, FontStyle.Regular, GraphicsUnit.Point, 0);
-			Label timerLabel = this.timer_label;
+			PictureBox1.SizeMode=PictureBoxSizeMode.AutoSize;
+			PictureBox1.TabIndex=5;
+			PictureBox1.TabStop = false;
+			timer_label.Font = new Font("Comic Sans MS", 14.25f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			Label timerLabel = timer_label;
 			point = new Point(360, 248);
 			timerLabel.Location = point;
-			this.timer_label.Name = "timer_label";
-			Label timerLabel1 = this.timer_label;
+			timer_label.Name = "timer_label";
+			Label timerLabel1 = timer_label;
 			size = new Size(48, 48);
 			timerLabel1.Size = size;
-			this.timer_label.TabIndex=6;
-			this.timer_label.Text = "99";
-			this.timer_label.TextAlign = ContentAlignment.MiddleCenter;
+			timer_label.TabIndex=6;
+			timer_label.Text = "99";
+			timer_label.TextAlign = ContentAlignment.MiddleCenter;
 			size = new Size(5, 13);
-			this.AutoScaleBaseSize = size;
+			AutoScaleBaseSize = size;
 			size = new Size(568, 344);
-			this.ClientSize = size;
-			this.ControlBox = false;
-			this.Controls.Add(this.timer_label);
-			this.Controls.Add(this.PictureBox1);
-			this.Controls.Add(this.Button1);
-			this.Controls.Add(this.Label1);
+			ClientSize = size;
+			ControlBox = false;
+			Controls.Add(timer_label);
+			Controls.Add(PictureBox1);
+			Controls.Add(Button1);
+			Controls.Add(Label1);
 			size = new Size(576, 352);
-			this.MaximumSize = size;
+			MaximumSize = size;
 			size = new Size(576, 352);
-			this.MinimumSize = size;
-			this.Name = "Infoplant";
-			this.StartPosition = FormStartPosition.CenterScreen;
-			this.Text = "Infoplant";
-			this.ResumeLayout(false);
+			MinimumSize = size;
+			Name = "Infoplant";
+			StartPosition = FormStartPosition.CenterScreen;
+			Text = "Infoplant";
+			ResumeLayout(false);
 		}
 	}
 }
