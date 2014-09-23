@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{89866DCF-A514-490D-8F8C-9B5BA09CB261}</ProjectGuid>
+    <SchemaVersion>2</SchemaVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>PuertoRico</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PuertoRico</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Confirmrole.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Infonopic.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Infoplant.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Infopurchase1.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Craftsman1.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Infopurchase2.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inforole.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Player2.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mayor1.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Player5.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Player3.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buildings.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Captain1.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirmbuilding1.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirmbuilding2.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirmnopic.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Score1.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirmplant.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info1.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Player4.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Infobuilding1.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Infobuilding2.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setup.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storage1.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Summary1.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Confirmrole.resx">
+      <DependentUpon>Confirmrole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Infonopic.resx">
+      <DependentUpon>Infonopic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Infoplant.resx">
+      <DependentUpon>Infoplant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Infopurchase1.resx">
+      <DependentUpon>Infopurchase1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Craftsman1.resx">
+      <DependentUpon>Craftsman1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Infopurchase2.resx">
+      <DependentUpon>Infopurchase2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inforole.resx">
+      <DependentUpon>Inforole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player2.resx">
+      <DependentUpon>Player2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mayor1.resx">
+      <DependentUpon>Mayor1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player5.resx">
+      <DependentUpon>Player5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player3.resx">
+      <DependentUpon>Player3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buildings.resx">
+      <DependentUpon>Buildings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Captain1.resx">
+      <DependentUpon>Captain1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmbuilding1.resx">
+      <DependentUpon>Confirmbuilding1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmbuilding2.resx">
+      <DependentUpon>Confirmbuilding2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmnopic.resx">
+      <DependentUpon>Confirmnopic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Score1.resx">
+      <DependentUpon>Score1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmplant.resx">
+      <DependentUpon>Confirmplant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info1.resx">
+      <DependentUpon>Info1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player4.resx">
+      <DependentUpon>Player4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Infobuilding1.resx">
+      <DependentUpon>Infobuilding1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Infobuilding2.resx">
+      <DependentUpon>Infobuilding2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setup.resx">
+      <DependentUpon>Setup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage1.resx">
+      <DependentUpon>Storage1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Summary1.resx">
+      <DependentUpon>Summary1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{31694F32-AC3C-47C1-B60E-85654023B723}") = "PuertoRico", "PuertoRico.csproj", "{5CC72B18-CCB9-4BB5-9E50-168C384133FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CC72B18-CCB9-4BB5-9E50-168C384133FF}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{5CC72B18-CCB9-4BB5-9E50-168C384133FF}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{5CC72B18-CCB9-4BB5-9E50-168C384133FF}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{5CC72B18-CCB9-4BB5-9E50-168C384133FF}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
