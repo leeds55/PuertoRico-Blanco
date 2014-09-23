@@ -131,7 +131,7 @@
   <data name="shipc_slot3.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib">
+  <data name="$SnapToGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="shipb_slot3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
@@ -146,13 +146,13 @@
   <data name="shipb_slot7.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
+  <data name="$TrayLargeIcon" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="shipb_slot2.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.Name" xml:space="preserve">
+  <data name="$Name" xml:space="preserve">
     <value>Captain1</value>
   </data>
   <data name="PictureBox3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
@@ -173,7 +173,7 @@
   <data name="shipc_slot6.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+  <data name="$DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
@@ -737,13 +737,13 @@
         1LfS36rH3bLO4ae/18TEu7jOxrazxtTLyb++zqyM
 </value>
   </data>
-  <data name="$this.Locked" type="System.Boolean, mscorlib">
+  <data name="$Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="shipb_slot6.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.DrawGrid" type="System.Boolean, mscorlib">
+  <data name="$DrawGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="shipc_slot3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
@@ -1394,16 +1394,16 @@
   <data name="PictureBox3.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  <data name="$Localizable" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="PictureBox1.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+  <data name="$Language" type="System.Globalization.CultureInfo, mscorlib">
     <value />
   </data>
-  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing">
+  <data name="$GridSize" type="System.Drawing.Size, System.Drawing">
     <value>2, 2</value>
   </data>
   <data name="shipc_slot2.Modifiers" type="System.CodeDom.MemberAttributes, System">
@@ -1957,7 +1957,7 @@
   <data name="shipb_slot1.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+  <data name="$TrayHeight" type="System.Int32, mscorlib">
     <value>80</value>
   </data>
   <data name="shipa_slot1.Locked" type="System.Boolean, mscorlib">

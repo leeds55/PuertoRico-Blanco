@@ -122,7 +122,7 @@
     <value>Assembly</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib">
+  <data name="$SnapToGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="cur2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
@@ -134,13 +134,13 @@
   <data name="gov1.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
+  <data name="$TrayLargeIcon" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="role1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.Name" xml:space="preserve">
+  <data name="$Name" xml:space="preserve">
     <value>Summary1</value>
   </data>
   <data name="role2.Modifiers" type="System.CodeDom.MemberAttributes, System">
@@ -155,16 +155,16 @@
   <data name="role1.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+  <data name="$DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.Locked" type="System.Boolean, mscorlib">
+  <data name="$Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="p4_name_label.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$this.DrawGrid" type="System.Boolean, mscorlib">
+  <data name="$DrawGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="cur4.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
@@ -224,7 +224,7 @@
   <data name="p2_name_label.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  <data name="$Localizable" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="role5.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
@@ -236,7 +236,7 @@
   <data name="cur4.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+  <data name="$Language" type="System.Globalization.CultureInfo, mscorlib">
     <value />
   </data>
   <data name="role3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
@@ -255,7 +255,7 @@
     <value>Assembly</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing">
+  <data name="$GridSize" type="System.Drawing.Size, System.Drawing">
     <value>8, 8</value>
   </data>
   <data name="gov4.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
@@ -294,7 +294,7 @@
   <data name="gov3.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+  <data name="$TrayHeight" type="System.Int32, mscorlib">
     <value>80</value>
   </data>
   <data name="p2_name_label.Locked" type="System.Boolean, mscorlib">

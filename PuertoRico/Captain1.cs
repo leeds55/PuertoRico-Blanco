@@ -88,13 +88,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._PictureBox1;
+				return _PictureBox1;
 			}
 			set
 			{
-				this._PictureBox1 = null;
-				this._PictureBox1 = value;
-				this._PictureBox1 = null;
+				_PictureBox1 = value;
 			}
 		}
 
@@ -102,13 +100,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._PictureBox2;
+				return _PictureBox2;
 			}
 			set
 			{
-				this._PictureBox2 = null;
-				this._PictureBox2 = value;
-				this._PictureBox2 = null;
+				_PictureBox2 = value;
 			}
 		}
 
@@ -116,13 +112,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._PictureBox3;
+				return _PictureBox3;
 			}
 			set
 			{
-				this._PictureBox3 = null;
-				this._PictureBox3 = value;
-				this._PictureBox3 = null;
+				_PictureBox3 = value;
 			}
 		}
 
@@ -130,13 +124,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipa_slot1;
+				return _shipa_slot1;
 			}
 			set
 			{
-				this._shipa_slot1 = null;
-				this._shipa_slot1 = value;
-				this._shipa_slot1 = null;
+				_shipa_slot1 = value;
 			}
 		}
 
@@ -144,13 +136,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipa_slot2;
+				return _shipa_slot2;
 			}
 			set
 			{
-				this._shipa_slot2 = null;
-				this._shipa_slot2 = value;
-				this._shipa_slot2 = null;
+				_shipa_slot2 = value;
 			}
 		}
 
@@ -158,13 +148,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipa_slot3;
+				return _shipa_slot3;
 			}
 			set
 			{
-				this._shipa_slot3 = null;
-				this._shipa_slot3 = value;
-				this._shipa_slot3 = null;
+				_shipa_slot3 = value;
 			}
 		}
 
@@ -172,13 +160,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipa_slot4;
+				return _shipa_slot4;
 			}
 			set
 			{
-				this._shipa_slot4 = null;
-				this._shipa_slot4 = value;
-				this._shipa_slot4 = null;
+				_shipa_slot4 = value;
 			}
 		}
 
@@ -186,13 +172,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipa_slot5;
+				return _shipa_slot5;
 			}
 			set
 			{
-				this._shipa_slot5 = null;
-				this._shipa_slot5 = value;
-				this._shipa_slot5 = null;
+				_shipa_slot5 = value;
 			}
 		}
 
@@ -200,13 +184,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipa_slot6;
+				return _shipa_slot6;
 			}
 			set
 			{
-				this._shipa_slot6 = null;
-				this._shipa_slot6 = value;
-				this._shipa_slot6 = null;
+				_shipa_slot6 = value;
 			}
 		}
 
@@ -214,13 +196,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipb_slot1;
+				return _shipb_slot1;
 			}
 			set
 			{
-				this._shipb_slot1 = null;
-				this._shipb_slot1 = value;
-				this._shipb_slot1 = null;
+				_shipb_slot1 = value;
 			}
 		}
 
@@ -228,13 +208,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipb_slot2;
+				return _shipb_slot2;
 			}
 			set
 			{
-				this._shipb_slot2 = null;
-				this._shipb_slot2 = value;
-				this._shipb_slot2 = null;
+				_shipb_slot2 = value;
 			}
 		}
 
@@ -242,13 +220,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipb_slot3;
+				return _shipb_slot3;
 			}
 			set
 			{
-				this._shipb_slot3 = null;
-				this._shipb_slot3 = value;
-				this._shipb_slot3 = null;
+				_shipb_slot3 = value;
 			}
 		}
 
@@ -256,13 +232,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipb_slot4;
+				return _shipb_slot4;
 			}
 			set
 			{
-				this._shipb_slot4 = null;
-				this._shipb_slot4 = value;
-				this._shipb_slot4 = null;
+				_shipb_slot4 = value;
 			}
 		}
 
@@ -270,13 +244,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipb_slot5;
+				return _shipb_slot5;
 			}
 			set
 			{
-				this._shipb_slot5 = null;
-				this._shipb_slot5 = value;
-				this._shipb_slot5 = null;
+				_shipb_slot5 = value;
 			}
 		}
 
@@ -284,13 +256,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipb_slot6;
+				return _shipb_slot6;
 			}
 			set
 			{
-				this._shipb_slot6 = null;
-				this._shipb_slot6 = value;
-				this._shipb_slot6 = null;
+				_shipb_slot6 = value;
 			}
 		}
 
@@ -298,13 +268,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipb_slot7;
+				return _shipb_slot7;
 			}
 			set
 			{
-				this._shipb_slot7 = null;
-				this._shipb_slot7 = value;
-				this._shipb_slot7 = null;
+				_shipb_slot7 = value;
 			}
 		}
 
@@ -312,13 +280,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipc_slot1;
+				return _shipc_slot1;
 			}
 			set
 			{
-				this._shipc_slot1 = null;
-				this._shipc_slot1 = value;
-				this._shipc_slot1 = null;
+				_shipc_slot1 = value;
 			}
 		}
 
@@ -326,13 +292,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipc_slot2;
+				return _shipc_slot2;
 			}
 			set
 			{
-				this._shipc_slot2 = null;
-				this._shipc_slot2 = value;
-				this._shipc_slot2 = null;
+				_shipc_slot2 = value;
 			}
 		}
 
@@ -340,13 +304,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipc_slot3;
+				return _shipc_slot3;
 			}
 			set
 			{
-				this._shipc_slot3 = null;
-				this._shipc_slot3 = value;
-				this._shipc_slot3 = null;
+				_shipc_slot3 = value;
 			}
 		}
 
@@ -354,13 +316,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipc_slot4;
+				return _shipc_slot4;
 			}
 			set
 			{
-				this._shipc_slot4 = null;
-				this._shipc_slot4 = value;
-				this._shipc_slot4 = null;
+				_shipc_slot4 = value;
 			}
 		}
 
@@ -368,13 +328,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipc_slot5;
+				return _shipc_slot5;
 			}
 			set
 			{
-				this._shipc_slot5 = null;
-				this._shipc_slot5 = value;
-				this._shipc_slot5 = null;
+				_shipc_slot5 = value;
 			}
 		}
 
@@ -382,13 +340,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipc_slot6;
+				return _shipc_slot6;
 			}
 			set
 			{
-				this._shipc_slot6 = null;
-				this._shipc_slot6 = value;
-				this._shipc_slot6 = null;
+				_shipc_slot6 = value;
 			}
 		}
 
@@ -396,13 +352,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipc_slot7;
+				return _shipc_slot7;
 			}
 			set
 			{
-				this._shipc_slot7 = null;
-				this._shipc_slot7 = value;
-				this._shipc_slot7 = null;
+				_shipc_slot7 = value;
 			}
 		}
 
@@ -410,26 +364,24 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._shipc_slot8;
+				return _shipc_slot8;
 			}
 			set
 			{
-				this._shipc_slot8 = null;
-				this._shipc_slot8 = value;
-				this._shipc_slot8 = null;
+				_shipc_slot8 = value;
 			}
 		}
 
 		public Captain1()
 		{
-			this.InitializeComponent();
+			InitializeComponent();
 		}
 
 		protected override void Dispose(bool disposing)
 		{
-			if (disposing && this.components != null)
+			if (disposing && components != null)
 			{
-				this.components.Dispose();
+				components.Dispose();
 			}
 			base.Dispose(disposing);
 		}
@@ -438,356 +390,356 @@ namespace PuertoRico
 		private void InitializeComponent()
 		{
 			ResourceManager resourceManager = new ResourceManager(typeof(Captain1));
-			this.PictureBox3 = new PictureBox();
-			this.PictureBox2 = new PictureBox();
-			this.PictureBox1 = new PictureBox();
-			this.shipa_slot6 = new PictureBox();
-			this.shipa_slot5 = new PictureBox();
-			this.shipa_slot4 = new PictureBox();
-			this.shipa_slot3 = new PictureBox();
-			this.shipa_slot2 = new PictureBox();
-			this.shipa_slot1 = new PictureBox();
-			this.shipb_slot7 = new PictureBox();
-			this.shipb_slot6 = new PictureBox();
-			this.shipb_slot5 = new PictureBox();
-			this.shipb_slot4 = new PictureBox();
-			this.shipb_slot3 = new PictureBox();
-			this.shipb_slot2 = new PictureBox();
-			this.shipb_slot1 = new PictureBox();
-			this.shipc_slot8 = new PictureBox();
-			this.shipc_slot7 = new PictureBox();
-			this.shipc_slot6 = new PictureBox();
-			this.shipc_slot5 = new PictureBox();
-			this.shipc_slot4 = new PictureBox();
-			this.shipc_slot3 = new PictureBox();
-			this.shipc_slot2 = new PictureBox();
-			this.shipc_slot1 = new PictureBox();
-			this.SuspendLayout();
-			this.PictureBox3.BackColor=SystemColors.ActiveCaption;
-			this.PictureBox3.BorderStyle=BorderStyle.FixedSingle;
-			this.PictureBox3.Image=(Image)resourceManager.GetObject("PictureBox3.Image");
-			PictureBox pictureBox3 = this.PictureBox3;
+			PictureBox3 = new PictureBox();
+			PictureBox2 = new PictureBox();
+			PictureBox1 = new PictureBox();
+			shipa_slot6 = new PictureBox();
+			shipa_slot5 = new PictureBox();
+			shipa_slot4 = new PictureBox();
+			shipa_slot3 = new PictureBox();
+			shipa_slot2 = new PictureBox();
+			shipa_slot1 = new PictureBox();
+			shipb_slot7 = new PictureBox();
+			shipb_slot6 = new PictureBox();
+			shipb_slot5 = new PictureBox();
+			shipb_slot4 = new PictureBox();
+			shipb_slot3 = new PictureBox();
+			shipb_slot2 = new PictureBox();
+			shipb_slot1 = new PictureBox();
+			shipc_slot8 = new PictureBox();
+			shipc_slot7 = new PictureBox();
+			shipc_slot6 = new PictureBox();
+			shipc_slot5 = new PictureBox();
+			shipc_slot4 = new PictureBox();
+			shipc_slot3 = new PictureBox();
+			shipc_slot2 = new PictureBox();
+			shipc_slot1 = new PictureBox();
+			SuspendLayout();
+			PictureBox3.BackColor=SystemColors.ActiveCaption;
+			PictureBox3.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox3.Image=(Image)resourceManager.GetObject("PictureBox3.Image");
+			PictureBox pictureBox3 = PictureBox3;
 			Point point = new Point(360, 96);
 			pictureBox3.Location = point;
-			this.PictureBox3.Name="PictureBox3";
-			PictureBox pictureBox = this.PictureBox3;
+			PictureBox3.Name="PictureBox3";
+			PictureBox pictureBox = PictureBox3;
 			Size size = new Size(76, 134);
 			pictureBox.Size = size;
-			this.PictureBox3.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.PictureBox3.TabIndex=156;
-			this.PictureBox3.TabStop = false;
-			this.PictureBox3.Visible = false;
-			this.PictureBox2.BackColor=SystemColors.ActiveCaption;
-			this.PictureBox2.BorderStyle=BorderStyle.FixedSingle;
-			this.PictureBox2.Image = (Image)resourceManager.GetObject("PictureBox2.Image");
-			PictureBox pictureBox2 = this.PictureBox2;
+			PictureBox3.SizeMode=PictureBoxSizeMode.AutoSize;
+			PictureBox3.TabIndex=156;
+			PictureBox3.TabStop = false;
+			PictureBox3.Visible = false;
+			PictureBox2.BackColor=SystemColors.ActiveCaption;
+			PictureBox2.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox2.Image = (Image)resourceManager.GetObject("PictureBox2.Image");
+			PictureBox pictureBox2 = PictureBox2;
 			point = new Point(280, 96);
 			pictureBox2.Location = point;
-			this.PictureBox2.Name = "PictureBox2";
-			PictureBox pictureBox21 = this.PictureBox2;
+			PictureBox2.Name = "PictureBox2";
+			PictureBox pictureBox21 = PictureBox2;
 			size = new Size(76, 134);
 			pictureBox21.Size = size;
-			this.PictureBox2.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.PictureBox2.TabIndex = 155;
-			this.PictureBox2.TabStop = false;
-			this.PictureBox2.Visible = false;
-			this.PictureBox1.BackColor=SystemColors.ActiveCaption;
-			this.PictureBox1.BorderStyle=BorderStyle.FixedSingle;
-			this.PictureBox1.Image = (Image)resourceManager.GetObject("PictureBox1.Image");
-			PictureBox pictureBox1 = this.PictureBox1;
+			PictureBox2.SizeMode=PictureBoxSizeMode.AutoSize;
+			PictureBox2.TabIndex = 155;
+			PictureBox2.TabStop = false;
+			PictureBox2.Visible = false;
+			PictureBox1.BackColor=SystemColors.ActiveCaption;
+			PictureBox1.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox1.Image = (Image)resourceManager.GetObject("PictureBox1.Image");
+			PictureBox pictureBox1 = PictureBox1;
 			point = new Point(192, 96);
 			pictureBox1.Location = point;
-			this.PictureBox1.Name = "PictureBox1";
-			PictureBox pictureBox11 = this.PictureBox1;
+			PictureBox1.Name = "PictureBox1";
+			PictureBox pictureBox11 = PictureBox1;
 			size = new Size(76, 134);
 			pictureBox11.Size = size;
-			this.PictureBox1.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.PictureBox1.TabIndex = 154;
-			this.PictureBox1.TabStop = false;
-			this.PictureBox1.Visible = false;
-			this.shipa_slot6.BackColor=SystemColors.ActiveCaption;
-			this.shipa_slot6.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipaSlot6 = this.shipa_slot6;
+			PictureBox1.SizeMode=PictureBoxSizeMode.AutoSize;
+			PictureBox1.TabIndex = 154;
+			PictureBox1.TabStop = false;
+			PictureBox1.Visible = false;
+			shipa_slot6.BackColor=SystemColors.ActiveCaption;
+			shipa_slot6.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipaSlot6 = shipa_slot6;
 			point = new Point(232, 206);
 			shipaSlot6.Location = point;
-			this.shipa_slot6.Name = "shipa_slot6";
-			PictureBox shipaSlot61 = this.shipa_slot6;
+			shipa_slot6.Name = "shipa_slot6";
+			PictureBox shipaSlot61 = shipa_slot6;
 			size = new Size(32, 32);
 			shipaSlot61.Size = size;
-			this.shipa_slot6.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipa_slot6.TabIndex = 162;
-			this.shipa_slot6.TabStop = false;
-			this.shipa_slot5.BackColor=SystemColors.ActiveCaption;
-			this.shipa_slot5.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipaSlot5 = this.shipa_slot5;
+			shipa_slot6.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipa_slot6.TabIndex = 162;
+			shipa_slot6.TabStop = false;
+			shipa_slot5.BackColor=SystemColors.ActiveCaption;
+			shipa_slot5.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipaSlot5 = shipa_slot5;
 			point = new Point(198, 206);
 			shipaSlot5.Location = point;
-			this.shipa_slot5.Name = "shipa_slot5";
-			PictureBox shipaSlot51 = this.shipa_slot5;
+			shipa_slot5.Name = "shipa_slot5";
+			PictureBox shipaSlot51 = shipa_slot5;
 			size = new Size(32, 32);
 			shipaSlot51.Size = size;
-			this.shipa_slot5.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipa_slot5.TabIndex = 161;
-			this.shipa_slot5.TabStop = false;
-			this.shipa_slot4.BackColor=SystemColors.ActiveCaption;
-			this.shipa_slot4.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipaSlot4 = this.shipa_slot4;
+			shipa_slot5.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipa_slot5.TabIndex = 161;
+			shipa_slot5.TabStop = false;
+			shipa_slot4.BackColor=SystemColors.ActiveCaption;
+			shipa_slot4.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipaSlot4 = shipa_slot4;
 			point = new Point(230, 158);
 			shipaSlot4.Location = point;
-			this.shipa_slot4.Name = "shipa_slot4";
-			PictureBox shipaSlot41 = this.shipa_slot4;
+			shipa_slot4.Name = "shipa_slot4";
+			PictureBox shipaSlot41 = shipa_slot4;
 			size = new Size(32, 32);
 			shipaSlot41.Size = size;
-			this.shipa_slot4.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipa_slot4.TabIndex = 160;
-			this.shipa_slot4.TabStop = false;
-			this.shipa_slot3.BackColor=SystemColors.ActiveCaption;
-			this.shipa_slot3.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipaSlot3 = this.shipa_slot3;
+			shipa_slot4.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipa_slot4.TabIndex = 160;
+			shipa_slot4.TabStop = false;
+			shipa_slot3.BackColor=SystemColors.ActiveCaption;
+			shipa_slot3.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipaSlot3 = shipa_slot3;
 			point = new Point(198, 158);
 			shipaSlot3.Location = point;
-			this.shipa_slot3.Name = "shipa_slot3";
-			PictureBox shipaSlot31 = this.shipa_slot3;
+			shipa_slot3.Name = "shipa_slot3";
+			PictureBox shipaSlot31 = shipa_slot3;
 			size = new Size(32, 32);
 			shipaSlot31.Size = size;
-			this.shipa_slot3.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipa_slot3.TabIndex = 159;
-			this.shipa_slot3.TabStop = false;
-			this.shipa_slot2.BackColor=SystemColors.ActiveCaption;
-			this.shipa_slot2.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipaSlot2 = this.shipa_slot2;
+			shipa_slot3.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipa_slot3.TabIndex = 159;
+			shipa_slot3.TabStop = false;
+			shipa_slot2.BackColor=SystemColors.ActiveCaption;
+			shipa_slot2.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipaSlot2 = shipa_slot2;
 			point = new Point(230, 124);
 			shipaSlot2.Location = point;
-			this.shipa_slot2.Name = "shipa_slot2";
-			PictureBox shipaSlot21 = this.shipa_slot2;
+			shipa_slot2.Name = "shipa_slot2";
+			PictureBox shipaSlot21 = shipa_slot2;
 			size = new Size(32, 32);
 			shipaSlot21.Size = size;
-			this.shipa_slot2.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipa_slot2.TabIndex = 158;
-			this.shipa_slot2.TabStop = false;
-			this.shipa_slot1.BackColor=SystemColors.ActiveCaption;
-			this.shipa_slot1.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipaSlot1 = this.shipa_slot1;
+			shipa_slot2.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipa_slot2.TabIndex = 158;
+			shipa_slot2.TabStop = false;
+			shipa_slot1.BackColor=SystemColors.ActiveCaption;
+			shipa_slot1.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipaSlot1 = shipa_slot1;
 			point = new Point(198, 124);
 			shipaSlot1.Location = point;
-			this.shipa_slot1.Name = "shipa_slot1";
-			PictureBox shipaSlot11 = this.shipa_slot1;
+			shipa_slot1.Name = "shipa_slot1";
+			PictureBox shipaSlot11 = shipa_slot1;
 			size = new Size(32, 32);
 			shipaSlot11.Size = size;
-			this.shipa_slot1.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipa_slot1.TabIndex = 157;
-			this.shipa_slot1.TabStop = false;
-			this.shipb_slot7.BackColor=SystemColors.ActiveCaption;
-			this.shipb_slot7.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipbSlot7 = this.shipb_slot7;
+			shipa_slot1.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipa_slot1.TabIndex = 157;
+			shipa_slot1.TabStop = false;
+			shipb_slot7.BackColor=SystemColors.ActiveCaption;
+			shipb_slot7.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipbSlot7 = shipb_slot7;
 			point = new Point(320, 212);
 			shipbSlot7.Location = point;
-			this.shipb_slot7.Name = "shipb_slot7";
-			PictureBox shipbSlot71 = this.shipb_slot7;
+			shipb_slot7.Name = "shipb_slot7";
+			PictureBox shipbSlot71 = shipb_slot7;
 			size = new Size(32, 32);
 			shipbSlot71.Size = size;
-			this.shipb_slot7.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipb_slot7.TabIndex = 169;
-			this.shipb_slot7.TabStop = false;
-			this.shipb_slot6.BackColor=SystemColors.ActiveCaption;
-			this.shipb_slot6.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipbSlot6 = this.shipb_slot6;
+			shipb_slot7.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipb_slot7.TabIndex = 169;
+			shipb_slot7.TabStop = false;
+			shipb_slot6.BackColor=SystemColors.ActiveCaption;
+			shipb_slot6.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipbSlot6 = shipb_slot6;
 			point = new Point(286, 212);
 			shipbSlot6.Location = point;
-			this.shipb_slot6.Name = "shipb_slot6";
-			PictureBox shipbSlot61 = this.shipb_slot6;
+			shipb_slot6.Name = "shipb_slot6";
+			PictureBox shipbSlot61 = shipb_slot6;
 			size = new Size(32, 32);
 			shipbSlot61.Size = size;
-			this.shipb_slot6.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipb_slot6.TabIndex = 168;
-			this.shipb_slot6.TabStop = false;
-			this.shipb_slot5.BackColor=SystemColors.ActiveCaption;
-			this.shipb_slot5.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipbSlot5 = this.shipb_slot5;
+			shipb_slot6.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipb_slot6.TabIndex = 168;
+			shipb_slot6.TabStop = false;
+			shipb_slot5.BackColor=SystemColors.ActiveCaption;
+			shipb_slot5.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipbSlot5 = shipb_slot5;
 			point = new Point(300, 174);
 			shipbSlot5.Location = point;
-			this.shipb_slot5.Name = "shipb_slot5";
-			PictureBox shipbSlot51 = this.shipb_slot5;
+			shipb_slot5.Name = "shipb_slot5";
+			PictureBox shipbSlot51 = shipb_slot5;
 			size = new Size(32, 32);
 			shipbSlot51.Size = size;
-			this.shipb_slot5.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipb_slot5.TabIndex = 167;
-			this.shipb_slot5.TabStop = false;
-			this.shipb_slot4.BackColor=SystemColors.ActiveCaption;
-			this.shipb_slot4.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipbSlot4 = this.shipb_slot4;
+			shipb_slot5.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipb_slot5.TabIndex = 167;
+			shipb_slot5.TabStop = false;
+			shipb_slot4.BackColor=SystemColors.ActiveCaption;
+			shipb_slot4.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipbSlot4 = shipb_slot4;
 			point = new Point(316, 142);
 			shipbSlot4.Location = point;
-			this.shipb_slot4.Name = "shipb_slot4";
-			PictureBox shipbSlot41 = this.shipb_slot4;
+			shipb_slot4.Name = "shipb_slot4";
+			PictureBox shipbSlot41 = shipb_slot4;
 			size = new Size(32, 32);
 			shipbSlot41.Size = size;
-			this.shipb_slot4.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipb_slot4.TabIndex = 166;
-			this.shipb_slot4.TabStop = false;
-			this.shipb_slot3.BackColor=SystemColors.ActiveCaption;
-			this.shipb_slot3.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipbSlot3 = this.shipb_slot3;
+			shipb_slot4.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipb_slot4.TabIndex = 166;
+			shipb_slot4.TabStop = false;
+			shipb_slot3.BackColor=SystemColors.ActiveCaption;
+			shipb_slot3.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipbSlot3 = shipb_slot3;
 			point = new Point(286, 142);
 			shipbSlot3.Location = point;
-			this.shipb_slot3.Name = "shipb_slot3";
-			PictureBox shipbSlot31 = this.shipb_slot3;
+			shipb_slot3.Name = "shipb_slot3";
+			PictureBox shipbSlot31 = shipb_slot3;
 			size = new Size(32, 32);
 			shipbSlot31.Size = size;
-			this.shipb_slot3.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipb_slot3.TabIndex = 165;
-			this.shipb_slot3.TabStop = false;
-			this.shipb_slot2.BackColor=SystemColors.ActiveCaption;
-			this.shipb_slot2.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipbSlot2 = this.shipb_slot2;
+			shipb_slot3.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipb_slot3.TabIndex = 165;
+			shipb_slot3.TabStop = false;
+			shipb_slot2.BackColor=SystemColors.ActiveCaption;
+			shipb_slot2.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipbSlot2 = shipb_slot2;
 			point = new Point(316, 112);
 			shipbSlot2.Location = point;
-			this.shipb_slot2.Name = "shipb_slot2";
-			PictureBox shipbSlot21 = this.shipb_slot2;
+			shipb_slot2.Name = "shipb_slot2";
+			PictureBox shipbSlot21 = shipb_slot2;
 			size = new Size(32, 32);
 			shipbSlot21.Size = size;
-			this.shipb_slot2.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipb_slot2.TabIndex = 164;
-			this.shipb_slot2.TabStop = false;
-			this.shipb_slot1.BackColor=SystemColors.ActiveCaption;
-			this.shipb_slot1.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipbSlot1 = this.shipb_slot1;
+			shipb_slot2.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipb_slot2.TabIndex = 164;
+			shipb_slot2.TabStop = false;
+			shipb_slot1.BackColor=SystemColors.ActiveCaption;
+			shipb_slot1.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipbSlot1 = shipb_slot1;
 			point = new Point(286, 112);
 			shipbSlot1.Location = point;
-			this.shipb_slot1.Name = "shipb_slot1";
-			PictureBox shipbSlot11 = this.shipb_slot1;
+			shipb_slot1.Name = "shipb_slot1";
+			PictureBox shipbSlot11 = shipb_slot1;
 			size = new Size(32, 32);
 			shipbSlot11.Size = size;
-			this.shipb_slot1.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipb_slot1.TabIndex = 163;
-			this.shipb_slot1.TabStop = false;
-			this.shipc_slot8.BackColor=SystemColors.ActiveCaption;
-			this.shipc_slot8.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipcSlot8 = this.shipc_slot8;
+			shipb_slot1.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipb_slot1.TabIndex = 163;
+			shipb_slot1.TabStop = false;
+			shipc_slot8.BackColor=SystemColors.ActiveCaption;
+			shipc_slot8.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipcSlot8 = shipc_slot8;
 			point = new Point(398, 212);
 			shipcSlot8.Location = point;
-			this.shipc_slot8.Name = "shipc_slot8";
-			PictureBox shipcSlot81 = this.shipc_slot8;
+			shipc_slot8.Name = "shipc_slot8";
+			PictureBox shipcSlot81 = shipc_slot8;
 			size = new Size(32, 32);
 			shipcSlot81.Size = size;
-			this.shipc_slot8.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipc_slot8.TabIndex = 177;
-			this.shipc_slot8.TabStop = false;
-			this.shipc_slot7.BackColor=SystemColors.ActiveCaption;
-			this.shipc_slot7.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipcSlot7 = this.shipc_slot7;
+			shipc_slot8.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipc_slot8.TabIndex = 177;
+			shipc_slot8.TabStop = false;
+			shipc_slot7.BackColor=SystemColors.ActiveCaption;
+			shipc_slot7.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipcSlot7 = shipc_slot7;
 			point = new Point(362, 212);
 			shipcSlot7.Location = point;
-			this.shipc_slot7.Name = "shipc_slot7";
-			PictureBox shipcSlot71 = this.shipc_slot7;
+			shipc_slot7.Name = "shipc_slot7";
+			PictureBox shipcSlot71 = shipc_slot7;
 			size = new Size(32, 32);
 			shipcSlot71.Size = size;
-			this.shipc_slot7.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipc_slot7.TabIndex = 176;
-			this.shipc_slot7.TabStop = false;
-			this.shipc_slot6.BackColor=SystemColors.ActiveCaption;
-			this.shipc_slot6.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipcSlot6 = this.shipc_slot6;
+			shipc_slot7.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipc_slot7.TabIndex = 176;
+			shipc_slot7.TabStop = false;
+			shipc_slot6.BackColor=SystemColors.ActiveCaption;
+			shipc_slot6.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipcSlot6 = shipc_slot6;
 			point = new Point(398, 176);
 			shipcSlot6.Location = point;
-			this.shipc_slot6.Name = "shipc_slot6";
-			PictureBox shipcSlot61 = this.shipc_slot6;
+			shipc_slot6.Name = "shipc_slot6";
+			PictureBox shipcSlot61 = shipc_slot6;
 			size = new Size(32, 32);
 			shipcSlot61.Size = size;
-			this.shipc_slot6.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipc_slot6.TabIndex = 175;
-			this.shipc_slot6.TabStop = false;
-			this.shipc_slot5.BackColor=SystemColors.ActiveCaption;
-			this.shipc_slot5.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipcSlot5 = this.shipc_slot5;
+			shipc_slot6.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipc_slot6.TabIndex = 175;
+			shipc_slot6.TabStop = false;
+			shipc_slot5.BackColor=SystemColors.ActiveCaption;
+			shipc_slot5.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipcSlot5 = shipc_slot5;
 			point = new Point(366, 176);
 			shipcSlot5.Location = point;
-			this.shipc_slot5.Name = "shipc_slot5";
-			PictureBox shipcSlot51 = this.shipc_slot5;
+			shipc_slot5.Name = "shipc_slot5";
+			PictureBox shipcSlot51 = shipc_slot5;
 			size = new Size(32, 32);
 			shipcSlot51.Size = size;
-			this.shipc_slot5.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipc_slot5.TabIndex = 174;
-			this.shipc_slot5.TabStop = false;
-			this.shipc_slot4.BackColor=SystemColors.ActiveCaption;
-			this.shipc_slot4.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipcSlot4 = this.shipc_slot4;
+			shipc_slot5.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipc_slot5.TabIndex = 174;
+			shipc_slot5.TabStop = false;
+			shipc_slot4.BackColor=SystemColors.ActiveCaption;
+			shipc_slot4.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipcSlot4 = shipc_slot4;
 			point = new Point(398, 146);
 			shipcSlot4.Location = point;
-			this.shipc_slot4.Name = "shipc_slot4";
-			PictureBox shipcSlot41 = this.shipc_slot4;
+			shipc_slot4.Name = "shipc_slot4";
+			PictureBox shipcSlot41 = shipc_slot4;
 			size = new Size(32, 32);
 			shipcSlot41.Size = size;
-			this.shipc_slot4.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipc_slot4.TabIndex = 173;
-			this.shipc_slot4.TabStop = false;
-			this.shipc_slot3.BackColor=SystemColors.ActiveCaption;
-			this.shipc_slot3.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipcSlot3 = this.shipc_slot3;
+			shipc_slot4.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipc_slot4.TabIndex = 173;
+			shipc_slot4.TabStop = false;
+			shipc_slot3.BackColor=SystemColors.ActiveCaption;
+			shipc_slot3.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipcSlot3 = shipc_slot3;
 			point = new Point(366, 146);
 			shipcSlot3.Location = point;
-			this.shipc_slot3.Name = "shipc_slot3";
-			PictureBox shipcSlot31 = this.shipc_slot3;
+			shipc_slot3.Name = "shipc_slot3";
+			PictureBox shipcSlot31 = shipc_slot3;
 			size = new Size(32, 32);
 			shipcSlot31.Size = size;
-			this.shipc_slot3.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipc_slot3.TabIndex = 172;
-			this.shipc_slot3.TabStop = false;
-			this.shipc_slot2.BackColor=SystemColors.ActiveCaption;
-			this.shipc_slot2.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipcSlot2 = this.shipc_slot2;
+			shipc_slot3.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipc_slot3.TabIndex = 172;
+			shipc_slot3.TabStop = false;
+			shipc_slot2.BackColor=SystemColors.ActiveCaption;
+			shipc_slot2.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipcSlot2 = shipc_slot2;
 			point = new Point(398, 114);
 			shipcSlot2.Location = point;
-			this.shipc_slot2.Name = "shipc_slot2";
-			PictureBox shipcSlot21 = this.shipc_slot2;
+			shipc_slot2.Name = "shipc_slot2";
+			PictureBox shipcSlot21 = shipc_slot2;
 			size = new Size(32, 32);
 			shipcSlot21.Size = size;
-			this.shipc_slot2.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipc_slot2.TabIndex = 171;
-			this.shipc_slot2.TabStop = false;
-			this.shipc_slot1.BackColor=SystemColors.ActiveCaption;
-			this.shipc_slot1.BorderStyle=BorderStyle.FixedSingle;
-			PictureBox shipcSlot1 = this.shipc_slot1;
+			shipc_slot2.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipc_slot2.TabIndex = 171;
+			shipc_slot2.TabStop = false;
+			shipc_slot1.BackColor=SystemColors.ActiveCaption;
+			shipc_slot1.BorderStyle=BorderStyle.FixedSingle;
+			PictureBox shipcSlot1 = shipc_slot1;
 			point = new Point(366, 114);
 			shipcSlot1.Location = point;
-			this.shipc_slot1.Name = "shipc_slot1";
-			PictureBox shipcSlot11 = this.shipc_slot1;
+			shipc_slot1.Name = "shipc_slot1";
+			PictureBox shipcSlot11 = shipc_slot1;
 			size = new Size(32, 32);
 			shipcSlot11.Size = size;
-			this.shipc_slot1.SizeMode=PictureBoxSizeMode.AutoSize;
-			this.shipc_slot1.TabIndex = 170;
-			this.shipc_slot1.TabStop = false;
+			shipc_slot1.SizeMode=PictureBoxSizeMode.AutoSize;
+			shipc_slot1.TabIndex = 170;
+			shipc_slot1.TabStop = false;
 			size = new Size(5, 13);
-			this.AutoScaleBaseSize = size;
+			AutoScaleBaseSize = size;
 			size = new Size(576, 402);
-			this.ClientSize = size;
-			this.Controls.Add(this.shipc_slot8);
-			this.Controls.Add(this.shipc_slot7);
-			this.Controls.Add(this.shipc_slot6);
-			this.Controls.Add(this.shipc_slot5);
-			this.Controls.Add(this.shipc_slot4);
-			this.Controls.Add(this.shipc_slot3);
-			this.Controls.Add(this.shipc_slot2);
-			this.Controls.Add(this.shipc_slot1);
-			this.Controls.Add(this.shipb_slot7);
-			this.Controls.Add(this.shipb_slot6);
-			this.Controls.Add(this.shipb_slot5);
-			this.Controls.Add(this.shipb_slot4);
-			this.Controls.Add(this.shipb_slot3);
-			this.Controls.Add(this.shipb_slot2);
-			this.Controls.Add(this.shipb_slot1);
-			this.Controls.Add(this.shipa_slot6);
-			this.Controls.Add(this.shipa_slot5);
-			this.Controls.Add(this.shipa_slot4);
-			this.Controls.Add(this.shipa_slot3);
-			this.Controls.Add(this.shipa_slot2);
-			this.Controls.Add(this.shipa_slot1);
-			this.Controls.Add(this.PictureBox3);
-			this.Controls.Add(this.PictureBox2);
-			this.Controls.Add(this.PictureBox1);
-			this.Name = "Captain1";
-			this.Text = "Captain1";
-			this.ResumeLayout(false);
+			ClientSize = size;
+			Controls.Add(shipc_slot8);
+			Controls.Add(shipc_slot7);
+			Controls.Add(shipc_slot6);
+			Controls.Add(shipc_slot5);
+			Controls.Add(shipc_slot4);
+			Controls.Add(shipc_slot3);
+			Controls.Add(shipc_slot2);
+			Controls.Add(shipc_slot1);
+			Controls.Add(shipb_slot7);
+			Controls.Add(shipb_slot6);
+			Controls.Add(shipb_slot5);
+			Controls.Add(shipb_slot4);
+			Controls.Add(shipb_slot3);
+			Controls.Add(shipb_slot2);
+			Controls.Add(shipb_slot1);
+			Controls.Add(shipa_slot6);
+			Controls.Add(shipa_slot5);
+			Controls.Add(shipa_slot4);
+			Controls.Add(shipa_slot3);
+			Controls.Add(shipa_slot2);
+			Controls.Add(shipa_slot1);
+			Controls.Add(PictureBox3);
+			Controls.Add(PictureBox2);
+			Controls.Add(PictureBox1);
+			Name = "Captain1";
+			Text = "Captain1";
+			ResumeLayout(false);
 		}
 	}
 }

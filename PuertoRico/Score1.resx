@@ -125,7 +125,7 @@
   <data name="GroupBox2.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib">
+  <data name="$SnapToGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="GroupBox1.Locked" type="System.Boolean, mscorlib">
@@ -167,7 +167,7 @@
   <data name="Label20.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
+  <data name="$TrayLargeIcon" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="Label8.Locked" type="System.Boolean, mscorlib">
@@ -179,7 +179,7 @@
   <data name="p2_vp_total_label.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.Name" xml:space="preserve">
+  <data name="$Name" xml:space="preserve">
     <value>Score1</value>
   </data>
   <data name="Label15.Modifiers" type="System.CodeDom.MemberAttributes, System">
@@ -231,16 +231,16 @@
   <data name="groupbox4.DrawGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+  <data name="$DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.Locked" type="System.Boolean, mscorlib">
+  <data name="$Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="p4_name_label.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$this.DrawGrid" type="System.Boolean, mscorlib">
+  <data name="$DrawGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="p5_name_label.Locked" type="System.Boolean, mscorlib">
@@ -387,7 +387,7 @@
   <data name="p1_vp_buildings_label.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  <data name="$Localizable" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="Label22.Locked" type="System.Boolean, mscorlib">
@@ -405,7 +405,7 @@
   <data name="Label12.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+  <data name="$Language" type="System.Globalization.CultureInfo, mscorlib">
     <value />
   </data>
   <data name="p1_vp_buildings_label.Locked" type="System.Boolean, mscorlib">
@@ -450,7 +450,7 @@
   <data name="Label17.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing">
+  <data name="$GridSize" type="System.Drawing.Size, System.Drawing">
     <value>8, 8</value>
   </data>
   <data name="Label20.Modifiers" type="System.CodeDom.MemberAttributes, System">
@@ -501,7 +501,7 @@
   <data name="groupbox4.GridSize" type="System.Drawing.Size, System.Drawing">
     <value>8, 8</value>
   </data>
-  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+  <data name="$TrayHeight" type="System.Int32, mscorlib">
     <value>80</value>
   </data>
   <data name="Label6.Modifiers" type="System.CodeDom.MemberAttributes, System">

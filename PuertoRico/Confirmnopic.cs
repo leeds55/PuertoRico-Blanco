@@ -26,13 +26,11 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._Label1;
+				return _Label1;
 			}
 			set
 			{
-				this._Label1 = null;
-				this._Label1 = value;
-				this._Label1 = null;
+				_Label1 = value;
 			}
 		}
 
@@ -40,20 +38,20 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._no_button;
+				return _no_button;
 			}
 			set
 			{
-				if (this._no_button != null)
+				if (_no_button != null)
 				{
 					Confirmnopic confirmnopic = this;
-					this._no_button.Click -=new EventHandler(confirmnopic.no_button_Click);
+					_no_button.Click -=new EventHandler(confirmnopic.no_button_Click);
 				}
-				this._no_button = value;
-				if (this._no_button != null)
+				_no_button = value;
+				if (_no_button != null)
 				{
 					Confirmnopic confirmnopic1 = this;
-					this._no_button.Click +=new EventHandler(confirmnopic1.no_button_Click);
+					_no_button.Click +=new EventHandler(confirmnopic1.no_button_Click);
 				}
 			}
 		}
@@ -62,35 +60,35 @@ namespace PuertoRico
 		{
 			get
 			{
-				return this._yes_buton;
+				return _yes_buton;
 			}
 			set
 			{
-				if (this._yes_buton != null)
+				if (_yes_buton != null)
 				{
 					Confirmnopic confirmnopic = this;
-					this._yes_buton.Click -=new EventHandler(confirmnopic.yes_buton_Click);
+					_yes_buton.Click -=new EventHandler(confirmnopic.yes_buton_Click);
 				}
-				this._yes_buton = value;
-				if (this._yes_buton != null)
+				_yes_buton = value;
+				if (_yes_buton != null)
 				{
 					Confirmnopic confirmnopic1 = this;
-					this._yes_buton.Click +=new EventHandler(confirmnopic1.yes_buton_Click);
+					_yes_buton.Click +=new EventHandler(confirmnopic1.yes_buton_Click);
 				}
 			}
 		}
 
 		public Confirmnopic()
 		{
-			this.yes_clicked = false;
-			this.InitializeComponent();
+			yes_clicked = false;
+			InitializeComponent();
 		}
 
 		protected override void Dispose(bool disposing)
 		{
-			if (disposing && this.components != null)
+			if (disposing && components != null)
 			{
-				this.components.Dispose();
+				components.Dispose();
 			}
 			base.Dispose(disposing);
 		}
@@ -98,62 +96,62 @@ namespace PuertoRico
 		[DebuggerStepThrough]
 		private void InitializeComponent()
 		{
-			this.no_button = new Button();
-			this.yes_buton = new Button();
-			this.Label1 = new Label();
-			this.SuspendLayout();
-			Button noButton = this.no_button;
+			no_button = new Button();
+			yes_buton = new Button();
+			Label1 = new Label();
+			SuspendLayout();
+			Button noButton = no_button;
 			Point point = new Point(232, 248);
 			noButton.Location = point;
-			this.no_button.Name = "no_button";
-			this.no_button.TabIndex=7;
-			this.no_button.Text = "NO";
-			Button yesButon = this.yes_buton;
+			no_button.Name = "no_button";
+			no_button.TabIndex=7;
+			no_button.Text = "NO";
+			Button yesButon = yes_buton;
 			point = new Point(128, 248);
 			yesButon.Location = point;
-			this.yes_buton.Name = "yes_buton";
-			this.yes_buton.TabIndex=8;
-			this.yes_buton.Text = "YES";
-			this.Label1.BorderStyle = BorderStyle.Fixed3D;
-			this.Label1.Font = new Font("Comic Sans MS", 15.75f, FontStyle.Regular, GraphicsUnit.Point, 0);
-			Label label1 = this.Label1;
+			yes_buton.Name = "yes_buton";
+			yes_buton.TabIndex=8;
+			yes_buton.Text = "YES";
+			Label1.BorderStyle = BorderStyle.Fixed3D;
+			Label1.Font = new Font("Comic Sans MS", 15.75f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			Label label1 = Label1;
 			point = new Point(24, 16);
 			label1.Location = point;
-			this.Label1.Name = "Label1";
-			Label label = this.Label1;
+			Label1.Name = "Label1";
+			Label label = Label1;
 			Size size = new Size(392, 208);
 			label.Size = size;
-			this.Label1.TabIndex=6;
-			this.Label1.Text = "Text will go here";
-			this.Label1.TextAlign = ContentAlignment.MiddleCenter;
+			Label1.TabIndex=6;
+			Label1.Text = "Text will go here";
+			Label1.TextAlign = ContentAlignment.MiddleCenter;
 			size = new Size(5, 13);
-			this.AutoScaleBaseSize = size;
+			AutoScaleBaseSize = size;
 			size = new Size(440, 298);
-			this.ClientSize = size;
-			this.ControlBox = false;
-			this.Controls.Add(this.no_button);
-			this.Controls.Add(this.yes_buton);
-			this.Controls.Add(this.Label1);
+			ClientSize = size;
+			ControlBox = false;
+			Controls.Add(no_button);
+			Controls.Add(yes_buton);
+			Controls.Add(Label1);
 			size = new Size(448, 336);
-			this.MaximumSize = size;
+			MaximumSize = size;
 			size = new Size(448, 336);
-			this.MinimumSize = size;
-			this.Name = "Confirmnopic";
-			this.StartPosition = FormStartPosition.CenterScreen;
-			this.Text = "Confirmation?";
-			this.ResumeLayout(false);
+			MinimumSize = size;
+			Name = "Confirmnopic";
+			StartPosition = FormStartPosition.CenterScreen;
+			Text = "Confirmation?";
+			ResumeLayout(false);
 		}
 
 		private void no_button_Click(object sender, EventArgs e)
 		{
-			this.yes_clicked = false;
-			this.Close();
+			yes_clicked = false;
+			Close();
 		}
 
 		private void yes_buton_Click(object sender, EventArgs e)
 		{
-			this.yes_clicked = true;
-			this.Close();
+			yes_clicked = true;
+			Close();
 		}
 	}
 }
