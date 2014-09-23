@@ -14216,7 +14216,6 @@ namespace PuertoRico
 			Point point;
 			if (number_of_players == 3)
 			{
-#error File not found.  Possible Decompiler couldn't extract?
 				shipa_pic.Image = Image.FromFile("pic\\ship4.bmp");
 				shipb_pic.Image = Image.FromFile("pic\\ship5.bmp");
 				shipc_pic.Image = Image.FromFile("pic\\ship6.bmp");
