@@ -30,20 +30,20 @@ namespace PuertoRico
 		{
 			get
 			{
-				return _Button1;
+				return this._Button1;
 			}
 			set
 			{
-				if (_Button1 != null)
+				if (this._Button1 != null)
 				{
 					Infonopic infonopic = this;
-					_Button1.Click -= new EventHandler(infonopic.Button1_Click);
+					this._Button1.Click -= new EventHandler(infonopic.Button1_Click);
 				}
-				_Button1 = value;
-				if (_Button1 != null)
+				this._Button1 = value;
+				if (this._Button1 != null)
 				{
 					Infonopic infonopic1 = this;
-					_Button1.Click += new EventHandler(infonopic1.Button1_Click);
+					this._Button1.Click += new EventHandler(infonopic1.Button1_Click);
 				}
 			}
 		}
@@ -52,20 +52,20 @@ namespace PuertoRico
 		{
 			get
 			{
-				return _infonopic_timer1;
+				return this._infonopic_timer1;
 			}
 			set
 			{
-				if (_infonopic_timer1 != null)
+				if (this._infonopic_timer1 != null)
 				{
 					Infonopic infonopic = this;
-					_infonopic_timer1.Tick -= new EventHandler(infonopic_timer1_Tick);
+					this._infonopic_timer1.Tick -= new EventHandler(infonopic_timer1_Tick);
 				}
-				_infonopic_timer1 = value;
-				if (_infonopic_timer1 != null)
+				this._infonopic_timer1 = value;
+				if (this._infonopic_timer1 != null)
 				{
 					Infonopic infonopic1 = this;
-					_infonopic_timer1.Tick += new EventHandler(infonopic_timer1_Tick);
+					this._infonopic_timer1.Tick += new EventHandler(infonopic_timer1_Tick);
 				}
 			}
 		}
@@ -74,11 +74,13 @@ namespace PuertoRico
 		{
 			get
 			{
-				return _Label1;
+				return this._Label1;
 			}
 			set
 			{
-				_Label1 = value;
+				this._Label1 = null;
+				this._Label1 = value;
+				this._Label1 = null;
 			}
 		}
 
@@ -86,122 +88,124 @@ namespace PuertoRico
 		{
 			get
 			{
-				return _timer_label;
+				return this._timer_label;
 			}
 			set
 			{
-				_timer_label = value;
+				this._timer_label = null;
+				this._timer_label = value;
+				this._timer_label = null;
 			}
 		}
 
 		public Infonopic()
 		{
-			exit_infonopic_routine = false;
-			InitializeComponent();
+			this.exit_infonopic_routine = false;
+			this.InitializeComponent();
 		}
 
 		private void Button1_Click(object sender, EventArgs e)
 		{
-			Close();
+			this.Close();
 		}
 
 		protected override void Dispose(bool disposing)
 		{
-			if (disposing && components != null)
+			if (disposing && this.components != null)
 			{
-				components.Dispose();
+				this.components.Dispose();
 			}
 			base.Dispose(disposing);
 		}
 
 		private void infonopic_timer1_Tick(object Sender, EventArgs e)
 		{
-			exit_infonopic_routine = false;
-			if (StringType.StrCmp(timer_label.Text, "5", false) == 0 & !exit_infonopic_routine)
+			this.exit_infonopic_routine = false;
+			if (StringType.StrCmp(this.timer_label.Text, "5", false) == 0 & !this.exit_infonopic_routine)
 			{
-				timer_label.Text="4";
-				exit_infonopic_routine = true;
+				this.timer_label.Text="4";
+				this.exit_infonopic_routine = true;
 			}
-			if (StringType.StrCmp(timer_label.Text, "4", false) == 0 & !exit_infonopic_routine)
+			if (StringType.StrCmp(this.timer_label.Text, "4", false) == 0 & !this.exit_infonopic_routine)
 			{
-				timer_label.Text="3";
-				exit_infonopic_routine = true;
+				this.timer_label.Text="3";
+				this.exit_infonopic_routine = true;
 			}
-			if (StringType.StrCmp(timer_label.Text, "3", false) == 0 & !exit_infonopic_routine)
+			if (StringType.StrCmp(this.timer_label.Text, "3", false) == 0 & !this.exit_infonopic_routine)
 			{
-				timer_label.Text="2";
-				exit_infonopic_routine = true;
+				this.timer_label.Text="2";
+				this.exit_infonopic_routine = true;
 			}
-			if (StringType.StrCmp(timer_label.Text, "2", false) == 0 & !exit_infonopic_routine)
+			if (StringType.StrCmp(this.timer_label.Text, "2", false) == 0 & !this.exit_infonopic_routine)
 			{
-				timer_label.Name = "1";
-				exit_infonopic_routine = true;
+				this.timer_label.Name = "1";
+				this.exit_infonopic_routine = true;
 			}
-			if (StringType.StrCmp(timer_label.Text, "1", false) == 0 & !exit_infonopic_routine)
+			if (StringType.StrCmp(this.timer_label.Text, "1", false) == 0 & !this.exit_infonopic_routine)
 			{
-				Close();
+				this.Close();
 			}
 		}
 
 		[DebuggerStepThrough]
 		private void InitializeComponent()
 		{
-			components = new Container();
-			Label1 = new Label();
-			Button1 = new Button();
-			infonopic_timer1 = new Timer(components);
-			timer_label = new Label();
-			SuspendLayout();
-			Label1.BorderStyle = BorderStyle.Fixed3D;
-			Label1.Font = new Font("Comic Sans MS", 15.75f, FontStyle.Regular, GraphicsUnit.Point, 0);
-			Label label1 = Label1;
+			this.components = new Container();
+			this.Label1 = new Label();
+			this.Button1 = new Button();
+			this.infonopic_timer1 = new Timer(this.components);
+			this.timer_label = new Label();
+			this.SuspendLayout();
+			this.Label1.BorderStyle = BorderStyle.Fixed3D;
+			this.Label1.Font = new Font("Comic Sans MS", 15.75f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			Label label1 = this.Label1;
 			Point point = new Point(24, 32);
 			label1.Location = point;
-			Label1.Name = "Label1";
-			Label label = Label1;
+			this.Label1.Name = "Label1";
+			Label label = this.Label1;
 			Size size = new Size(392, 208);
 			label.Size = size;
-			Label1.TabIndex=1;
-			Label1.Text = "Text will go here";
-			Label1.TextAlign = ContentAlignment.MiddleCenter;
-			Button button1 = Button1;
+			this.Label1.TabIndex=1;
+			this.Label1.Text = "Text will go here";
+			this.Label1.TextAlign = ContentAlignment.MiddleCenter;
+			Button button1 = this.Button1;
 			point = new Point(160, 264);
 			button1.Location = point;
-			Button1.Name = "Button1";
-			Button button = Button1;
+			this.Button1.Name = "Button1";
+			Button button = this.Button1;
 			size = new Size(112, 32);
 			button.Size = size;
-			Button1.TabIndex=3;
-			Button1.Text = "OK";
-			timer_label.Font = new Font("Comic Sans MS", 14.25f, FontStyle.Regular, GraphicsUnit.Point, 0);
-			Label timerLabel = timer_label;
+			this.Button1.TabIndex=3;
+			this.Button1.Text = "OK";
+			this.timer_label.Font = new Font("Comic Sans MS", 14.25f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			Label timerLabel = this.timer_label;
 			point = new Point(288, 256);
 			timerLabel.Location = point;
-			timer_label.Name = "timer_label";
-			Label timerLabel1 = timer_label;
+			this.timer_label.Name = "timer_label";
+			Label timerLabel1 = this.timer_label;
 			size = new Size(48, 48);
 			timerLabel1.Size = size;
-			timer_label.TabIndex=4;
-			timer_label.Text = "99";
-			timer_label.TextAlign = ContentAlignment.MiddleCenter;
+			this.timer_label.TabIndex=4;
+			this.timer_label.Text = "99";
+			this.timer_label.TextAlign = ContentAlignment.MiddleCenter;
 			size = new Size(6, 16);
-			AutoScaleBaseSize = size;
+			this.AutoScaleBaseSize = size;
 			size = new Size(446, 324);
-			ClientSize = size;
-			ControlBox = false;
-			Controls.Add(timer_label);
-			Controls.Add(Button1);
-			Controls.Add(Label1);
-			Font=new Font("Comic Sans MS", 8.25f, FontStyle.Regular, GraphicsUnit.Point, 0);
-			FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+			this.ClientSize = size;
+			this.ControlBox = false;
+			this.Controls.Add(this.timer_label);
+			this.Controls.Add(this.Button1);
+			this.Controls.Add(this.Label1);
+			this.Font=new Font("Comic Sans MS", 8.25f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			size = new Size(448, 352);
-			MaximumSize = size;
+			this.MaximumSize = size;
 			size = new Size(448, 352);
-			MinimumSize = size;
-			Name = "Infonopic";
-			StartPosition = FormStartPosition.CenterScreen;
-			Text = "Information";
-			ResumeLayout(false);
+			this.MinimumSize = size;
+			this.Name = "Infonopic";
+			this.StartPosition = FormStartPosition.CenterScreen;
+			this.Text = "Information";
+			this.ResumeLayout(false);
 		}
 	}
 }

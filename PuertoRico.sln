@@ -5,18 +5,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuertoRico", "PuertoRico\Pu
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
-		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{89866DCF-A514-490D-8F8C-9B5BA09CB261}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{89866DCF-A514-490D-8F8C-9B5BA09CB261}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{89866DCF-A514-490D-8F8C-9B5BA09CB261}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{89866DCF-A514-490D-8F8C-9B5BA09CB261}.Debug|x86.Build.0 = Debug|Any CPU
-		{89866DCF-A514-490D-8F8C-9B5BA09CB261}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{89866DCF-A514-490D-8F8C-9B5BA09CB261}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{89866DCF-A514-490D-8F8C-9B5BA09CB261}.Release|x86.ActiveCfg = Release|Any CPU
 		{89866DCF-A514-490D-8F8C-9B5BA09CB261}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection

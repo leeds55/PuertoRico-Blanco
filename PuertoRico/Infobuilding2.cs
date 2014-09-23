@@ -33,20 +33,20 @@ namespace PuertoRico
 		{
 			get
 			{
-				return _Button1;
+				return this._Button1;
 			}
 			set
 			{
-				if (_Button1 != null)
+				if (this._Button1 != null)
 				{
 					Infobuilding2 infobuilding2 = this;
-					_Button1.Click -=new EventHandler(infobuilding2.Button1_Click);
+					this._Button1.Click -=new EventHandler(infobuilding2.Button1_Click);
 				}
-				_Button1 = value;
-				if (_Button1 != null)
+				this._Button1 = value;
+				if (this._Button1 != null)
 				{
 					Infobuilding2 infobuilding21 = this;
-					_Button1.Click +=new EventHandler(infobuilding21.Button1_Click);
+					this._Button1.Click +=new EventHandler(infobuilding21.Button1_Click);
 				}
 			}
 		}
@@ -55,20 +55,20 @@ namespace PuertoRico
 		{
 			get
 			{
-				return _infobuilding2_timer1;
+				return this._infobuilding2_timer1;
 			}
 			set
 			{
-				if (_infobuilding2_timer1 != null)
+				if (this._infobuilding2_timer1 != null)
 				{
 					Infobuilding2 infobuilding2 = this;
-					_infobuilding2_timer1.Tick -=new EventHandler(infobuilding2.infobuilding2_timer1_Tick);
+					this._infobuilding2_timer1.Tick -=new EventHandler(infobuilding2.infobuilding2_timer1_Tick);
 				}
-				_infobuilding2_timer1 = value;
-				if (_infobuilding2_timer1 != null)
+				this._infobuilding2_timer1 = value;
+				if (this._infobuilding2_timer1 != null)
 				{
 					Infobuilding2 infobuilding21 = this;
-					_infobuilding2_timer1.Tick +=new EventHandler(infobuilding21.infobuilding2_timer1_Tick);
+					this._infobuilding2_timer1.Tick +=new EventHandler(infobuilding21.infobuilding2_timer1_Tick);
 				}
 			}
 		}
@@ -77,11 +77,13 @@ namespace PuertoRico
 		{
 			get
 			{
-				return _Label1;
+				return this._Label1;
 			}
 			set
 			{
-				_Label1 = value;
+				this._Label1 = null;
+				this._Label1 = value;
+				this._Label1 = null;
 			}
 		}
 
@@ -89,11 +91,13 @@ namespace PuertoRico
 		{
 			get
 			{
-				return _PictureBox1;
+				return this._PictureBox1;
 			}
 			set
 			{
-				_PictureBox1 = value;
+				this._PictureBox1 = null;
+				this._PictureBox1 = value;
+				this._PictureBox1 = null;
 			}
 		}
 
@@ -101,132 +105,134 @@ namespace PuertoRico
 		{
 			get
 			{
-				return _timer_label;
+				return this._timer_label;
 			}
 			set
 			{
-				_timer_label = value;
+				this._timer_label = null;
+				this._timer_label = value;
+				this._timer_label = null;
 			}
 		}
 
 		public Infobuilding2()
 		{
-			exit_infobuilding2_routine = false;
-			InitializeComponent();
+			this.exit_infobuilding2_routine = false;
+			this.InitializeComponent();
 		}
 
 		private void Button1_Click(object sender, EventArgs e)
 		{
-			Close();
+			this.Close();
 		}
 
 		protected override void Dispose(bool disposing)
 		{
-			if (disposing && components != null)
+			if (disposing && this.components != null)
 			{
-				components.Dispose();
+				this.components.Dispose();
 			}
 			base.Dispose(disposing);
 		}
 
 		private void infobuilding2_timer1_Tick(object Sender, EventArgs e)
 		{
-			exit_infobuilding2_routine = false;
-			if (StringType.StrCmp(timer_label.Text, "5", false) == 0 & !exit_infobuilding2_routine)
+			this.exit_infobuilding2_routine = false;
+			if (StringType.StrCmp(this.timer_label.Text, "5", false) == 0 & !this.exit_infobuilding2_routine)
 			{
-				timer_label.Name = "4";
-				exit_infobuilding2_routine = true;
+				this.timer_label.Name = "4";
+				this.exit_infobuilding2_routine = true;
 			}
-			if (StringType.StrCmp(timer_label.Text, "4", false) == 0 & !exit_infobuilding2_routine)
+			if (StringType.StrCmp(this.timer_label.Text, "4", false) == 0 & !this.exit_infobuilding2_routine)
 			{
-				timer_label.Name = "3";
-				exit_infobuilding2_routine = true;
+				this.timer_label.Name = "3";
+				this.exit_infobuilding2_routine = true;
 			}
-			if (StringType.StrCmp(timer_label.Text, "3", false) == 0 & !exit_infobuilding2_routine)
+			if (StringType.StrCmp(this.timer_label.Text, "3", false) == 0 & !this.exit_infobuilding2_routine)
 			{
-				timer_label.Name = "2";
-				exit_infobuilding2_routine = true;
+				this.timer_label.Name = "2";
+				this.exit_infobuilding2_routine = true;
 			}
-			if (StringType.StrCmp(timer_label.Text, "2", false) == 0 & !exit_infobuilding2_routine)
+			if (StringType.StrCmp(this.timer_label.Text, "2", false) == 0 & !this.exit_infobuilding2_routine)
 			{
-				timer_label.Name = "1";
-				exit_infobuilding2_routine = true;
+				this.timer_label.Name = "1";
+				this.exit_infobuilding2_routine = true;
 			}
-			if (StringType.StrCmp(timer_label.Text, "1", false) == 0 & !exit_infobuilding2_routine)
+			if (StringType.StrCmp(this.timer_label.Text, "1", false) == 0 & !this.exit_infobuilding2_routine)
 			{
-				Close();
+				this.Close();
 			}
 		}
 
 		[DebuggerStepThrough]
 		private void InitializeComponent()
 		{
-			components = new Container();
-			Button1 = new Button();
-			PictureBox1 = new PictureBox();
-			Label1 = new Label();
-			timer_label = new Label();
-			infobuilding2_timer1 = new Timer(components);
-			SuspendLayout();
-			Button button1 = Button1;
+			this.components = new Container();
+			this.Button1 = new Button();
+			this.PictureBox1 = new PictureBox();
+			this.Label1 = new Label();
+			this.timer_label = new Label();
+			this.infobuilding2_timer1 = new Timer(this.components);
+			this.SuspendLayout();
+			Button button1 = this.Button1;
 			Point point = new Point(256, 264);
 			button1.Location = point;
-			Button1.Name = "Button1";
-			Button button = Button1;
+			this.Button1.Name = "Button1";
+			Button button = this.Button1;
 			Size size = new Size(112, 32);
 			button.Size = size;
-			Button1.TabIndex=8;
-			Button1.Text = "OK";
-			PictureBox pictureBox1 = PictureBox1;
+			this.Button1.TabIndex=8;
+			this.Button1.Text = "OK";
+			PictureBox pictureBox1 = this.PictureBox1;
 			point = new Point(24, 48);
 			pictureBox1.Location = point;
-			PictureBox1.Name = "PictureBox1";
-			PictureBox pictureBox = PictureBox1;
+			this.PictureBox1.Name = "PictureBox1";
+			PictureBox pictureBox = this.PictureBox1;
 			size = new Size(160, 184);
 			pictureBox.Size = size;
-			PictureBox1.SizeMode=PictureBoxSizeMode.AutoSize;
-			PictureBox1.TabIndex=7;
-			PictureBox1.TabStop = false;
-			Label1.BorderStyle = BorderStyle.Fixed3D;
-			Label1.Font = new Font("Comic Sans MS", 15.75f, FontStyle.Regular, GraphicsUnit.Point, 0);
-			Label label1 = Label1;
+			this.PictureBox1.SizeMode=PictureBoxSizeMode.AutoSize;
+			this.PictureBox1.TabIndex=7;
+			this.PictureBox1.TabStop = false;
+			this.Label1.BorderStyle = BorderStyle.Fixed3D;
+			this.Label1.Font = new Font("Comic Sans MS", 15.75f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			Label label1 = this.Label1;
 			point = new Point(200, 32);
 			label1.Location = point;
-			Label1.Name = "Label1";
-			Label label = Label1;
+			this.Label1.Name = "Label1";
+			Label label = this.Label1;
 			size = new Size(392, 208);
 			label.Size = size;
-			Label1.TabIndex=6;
-			Label1.Text = "Text will go here";
-			Label1.TextAlign = ContentAlignment.MiddleCenter;
-			timer_label.Font = new Font("Comic Sans MS", 14.25f, FontStyle.Regular, GraphicsUnit.Point, 0);
-			Label timerLabel = timer_label;
+			this.Label1.TabIndex=6;
+			this.Label1.Text = "Text will go here";
+			this.Label1.TextAlign = ContentAlignment.MiddleCenter;
+			this.timer_label.Font = new Font("Comic Sans MS", 14.25f, FontStyle.Regular, GraphicsUnit.Point, 0);
+			Label timerLabel = this.timer_label;
 			point = new Point(376, 256);
 			timerLabel.Location = point;
-			timer_label.Name = "timer_label";
-			Label timerLabel1 = timer_label;
+			this.timer_label.Name = "timer_label";
+			Label timerLabel1 = this.timer_label;
 			size = new Size(48, 48);
 			timerLabel1.Size = size;
-			timer_label.TabIndex=9;
-			timer_label.Text = "99";
-			timer_label.TextAlign = ContentAlignment.MiddleCenter;
+			this.timer_label.TabIndex=9;
+			this.timer_label.Text = "99";
+			this.timer_label.TextAlign = ContentAlignment.MiddleCenter;
 			size = new Size(5, 13);
-			AutoScaleBaseSize = size;
+			this.AutoScaleBaseSize = size;
 			size = new Size(616, 314);
-			ClientSize = size;
-			ControlBox = false;
-			Controls.Add(timer_label);
-			Controls.Add(Button1);
-			Controls.Add(PictureBox1);
-			Controls.Add(Label1);
+			this.ClientSize = size;
+			this.ControlBox = false;
+			this.Controls.Add(this.timer_label);
+			this.Controls.Add(this.Button1);
+			this.Controls.Add(this.PictureBox1);
+			this.Controls.Add(this.Label1);
 			size = new Size(624, 352);
-			MaximumSize = size;
+			this.MaximumSize = size;
 			size = new Size(624, 352);
-			MinimumSize = size;
-			Name = "Infobuilding2";
-			StartPosition = FormStartPosition.CenterScreen;
-			Text = "Infobuilding2";
-			ResumeLayout(false);
+			this.MinimumSize = size;
+			this.Name = "Infobuilding2";
+			this.StartPosition = FormStartPosition.CenterScreen;
+			this.Text = "Infobuilding2";
+			this.ResumeLayout(false);
 		}
 	}
 }

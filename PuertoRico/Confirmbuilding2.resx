@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$SnapToGrid" type="System.Boolean, mscorlib">
+  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="$TrayLargeIcon" type="System.Boolean, mscorlib">
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$Name" xml:space="preserve">
+  <data name="$this.Name" xml:space="preserve">
     <value>Confirmbuilding2</value>
   </data>
   <assembly alias="System" name="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
@@ -137,13 +137,13 @@
   <data name="no_button.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$Locked" type="System.Boolean, mscorlib">
+  <data name="$this.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$DrawGrid" type="System.Boolean, mscorlib">
+  <data name="$this.DrawGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="Label1.Locked" type="System.Boolean, mscorlib">
@@ -158,20 +158,20 @@
   <data name="no_button.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$Localizable" type="System.Boolean, mscorlib">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="PictureBox1.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$Language" type="System.Globalization.CultureInfo, mscorlib">
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
     <value />
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$GridSize" type="System.Drawing.Size, System.Drawing">
+  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing">
     <value>8, 8</value>
   </data>
-  <data name="$TrayHeight" type="System.Int32, mscorlib">
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
     <value>80</value>
   </data>
   <data name="PictureBox1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">

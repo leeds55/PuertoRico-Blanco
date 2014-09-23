@@ -131,7 +131,7 @@
     <value>Assembly</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$SnapToGrid" type="System.Boolean, mscorlib">
+  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="GroupBox1.Locked" type="System.Boolean, mscorlib">
@@ -2077,7 +2077,7 @@
   <data name="Label2.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$TrayLargeIcon" type="System.Boolean, mscorlib">
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="setup_role1_pic.Locked" type="System.Boolean, mscorlib">
@@ -2089,7 +2089,7 @@
   <data name="name_ai1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$Name" xml:space="preserve">
+  <data name="$this.Name" xml:space="preserve">
     <value>Setup</value>
   </data>
   <data name="seat5_radio.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
@@ -2116,7 +2116,7 @@
   <data name="name_human.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
   <data name="PictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -3077,7 +3077,7 @@
   <data name="setup_confirm_button.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$Locked" type="System.Boolean, mscorlib">
+  <data name="$this.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="seat1_radio.Locked" type="System.Boolean, mscorlib">
@@ -3089,7 +3089,7 @@
   <data name="players4_Radio.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$DrawGrid" type="System.Boolean, mscorlib">
+  <data name="$this.DrawGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="Label1.Locked" type="System.Boolean, mscorlib">
@@ -6006,13 +6006,13 @@
   <data name="playersx_radio.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$Localizable" type="System.Boolean, mscorlib">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="PictureBox1.Modifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$Language" type="System.Globalization.CultureInfo, mscorlib">
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
     <value />
   </data>
   <data name="seat3_radio.Modifiers" type="System.CodeDom.MemberAttributes, System">
@@ -6030,7 +6030,7 @@
   <data name="setup_confirm_button.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$GridSize" type="System.Drawing.Size, System.Drawing">
+  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing">
     <value>8, 8</value>
   </data>
   <data name="GroupBox1.SnapToGrid" type="System.Boolean, mscorlib">
@@ -7927,7 +7927,7 @@
   <data name="players5_radio.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$TrayHeight" type="System.Int32, mscorlib">
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
     <value>80</value>
   </data>
   <data name="PictureBox7.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">

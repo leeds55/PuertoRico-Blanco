@@ -714,7 +714,9 @@ namespace PuertoRico
 			}
 			set
 			{
+				this._PictureBox1 = null;
 				this._PictureBox1 = value;
+				this._PictureBox1 = null;
 			}
 		}
 

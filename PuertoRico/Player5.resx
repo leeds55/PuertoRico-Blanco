@@ -134,7 +134,7 @@
   <data name="plant_p5_slot12.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$SnapToGrid" type="System.Boolean, mscorlib">
+  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="plant_p5_slot4.Modifiers" type="System.CodeDom.MemberAttributes, System">
@@ -176,13 +176,13 @@
   <data name="plant_p5_slot5.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$TrayLargeIcon" type="System.Boolean, mscorlib">
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="num_indigo_label.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$Name" xml:space="preserve">
+  <data name="$this.Name" xml:space="preserve">
     <value>Player5</value>
   </data>
   <data name="plant_p5_slot3.Locked" type="System.Boolean, mscorlib">
@@ -224,7 +224,7 @@
   <data name="build_p5_slot11.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
   <data name="build_p5_slot6.Locked" type="System.Boolean, mscorlib">
@@ -233,10 +233,10 @@
   <data name="build_p5_slot14.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$Locked" type="System.Boolean, mscorlib">
+  <data name="$this.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$DrawGrid" type="System.Boolean, mscorlib">
+  <data name="$this.DrawGrid" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="plant_p5_slot3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
@@ -1327,7 +1327,7 @@
   <data name="build_p5_slot13.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$Localizable" type="System.Boolean, mscorlib">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="build_p5_slot17.Modifiers" type="System.CodeDom.MemberAttributes, System">
@@ -1351,7 +1351,7 @@
   <data name="build_p5_slot15.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$Language" type="System.Globalization.CultureInfo, mscorlib">
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
     <value />
   </data>
   <data name="plant_p5_slot11.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
@@ -1363,7 +1363,7 @@
   <data name="Label5.Locked" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="$GridSize" type="System.Drawing.Size, System.Drawing">
+  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing">
     <value>2, 2</value>
   </data>
   <data name="vp_total_label.Locked" type="System.Boolean, mscorlib">
@@ -1408,7 +1408,7 @@
   <data name="plant_p5_slot8.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
     <value>Assembly</value>
   </data>
-  <data name="$TrayHeight" type="System.Int32, mscorlib">
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
     <value>80</value>
   </data>
   <data name="plant_p5_slot10.Locked" type="System.Boolean, mscorlib">
